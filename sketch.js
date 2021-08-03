@@ -78,7 +78,7 @@ function draw() {
   
   background(180);
   //exibindo pontuação
-  text("Pontuação: "+ pontuacao, width-100,height-800);
+  text("Pontuação: "+ pontuacao, width-100,height-600);
     
   console.log("isto é ",estadoJogo)
   
@@ -182,7 +182,7 @@ function gerarObstaculos(){
 function gerarNuvens() {
   //escreva o código aqui para gerar as nuvens 
   if (frameCount % 60 === 0) {
-    nuvem = createSprite(600,height-90,40,10);
+    nuvem = createSprite(600,height-120,40,10);
     nuvem.y = Math.round(random(10,60));
     nuvem.addImage(imagemdanuvem);
     nuvem.scale = 0.5;
