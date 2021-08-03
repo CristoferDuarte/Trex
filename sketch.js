@@ -58,7 +58,7 @@ function setup() {
   fimDeJogo.scale = 0.5;
   reiniciar.scale = 0.5;
     
-  soloinvisivel = createSprite(width-1000,height-65,width,10);
+  soloinvisivel = createSprite(width/2,height-65,width,10);
   soloinvisivel.visible = false  ;
    
   //criar grupos de obstáculos e de nuvens
