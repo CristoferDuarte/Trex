@@ -183,7 +183,7 @@ function gerarNuvens() {
   //escreva o código aqui para gerar as nuvens 
   if (frameCount % 60 === 0) {
     nuvem = createSprite(600,height-200,40,10);
-    nuvem.y = Math.round(random(10,60));
+    nuvem.y = Math.round(random(100,220));
     nuvem.addImage(imagemdanuvem);
     nuvem.scale = 0.5;
     nuvem.velocityX = -(3 + pontuacao/100);
