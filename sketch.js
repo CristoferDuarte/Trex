@@ -182,7 +182,7 @@ function gerarObstaculos(){
 function gerarNuvens() {
   //escreva o código aqui para gerar as nuvens 
   if (frameCount % 60 === 0) {
-    nuvem = createSprite(600,height-200,40,10);
+    nuvem = createSprite(600,height-300,40,10);
     nuvem.y = Math.round(random(100,220));
     nuvem.addImage(imagemdanuvem);
     nuvem.scale = 0.5;
